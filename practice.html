@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript practice</title>
+    <style>
+        .container {
+            background-color: cornsilk;
+            border: 2px solid red;
+            margin: 3px 0;
+            padding: 9px;
+        }
+        
+        .bg-primary {
+            background-color: rosybrown;
+        }
+        
+        .text-success {
+            color: white;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <h1>Welcome To My JAVA Code</h1>
+    <div id="firstconatiner" class="container">
+        <buttom id="click" onclick="clicked()">Click-me</buttom>
+        <p>This Is Universal Pargraph</p>
+    </div>
+    <div class="container">
+        <p>This is Paragraph</p>
+    </div>
+
+
+</body>
+
+<script>
+    // document.write("Hassan khan");
+
+    // console api
+
+    // console.log("Hassan khan");
+    // console.error("This is error");
+    // console.warn("this is warning")
+    // alert("This is My first page")
+
+    // variables
+    //Numbers
+    var num1 = 45;
+    var num2 = 56;
+    // console.log(num1 - num2);
+
+    //  javascript data types
+    string
+    var str = "it is called string";
+    var str2 = "This is also called string";
+
+    console.log(str, str2);
+
+    //Objects  
+
+    var marks = {
+            Adeel = 56,
+            Hassan = 67,
+            Husnain = 78.88,
+        }
+        // document.write('marks');
+
+    // // Boolean
+
+    var a = 'true';
+    var b = 'false';
+    // console.log(a, b);
+
+    var und = undefined;
+    // console.log(und);
+
+    var n = null;
+    // console.log(null);
+
+
+    var array = [1, 2, "Hassan", 4, 5];
+    // console.log(array)
+
+    // operators in javascript
+
+    var num1 = 100;
+    var num2 = 10;
+
+    // console.log(num1 + num2);
+    // console.log(num1 - num2);
+    // console.log(num1 * num2);
+    // console.log(num1 / num2);
+
+    //Assigment operator
+
+    var c = 2;
+    c_ += 2;
+    c_ -= 2
+    c_ *= 2
+    c_ /= 2
+    c = c + 2;
+    // console.log(c);
+
+    function add(a, b) {
+        return a + b;
+    }
+    // console.log(add(5, 7));
+
+    function avg(a, b) {
+        c = (a + b) / 2
+        return c;
+    }
+    // DRY=do no repeat
+    c1 = 56;
+    c2 = 56;
+    // console.log(c1, c2);
+
+    // conditional in javascript
+
+    var age = 15;
+    if (age < 20) {
+        // console.log("You are Young")
+    }
+
+
+    var age = 15;
+    if (age < 10) {
+        //   console.log("You are Young");
+    } else {
+        //   console.log("You are old");
+    }
+
+    var age = 25;
+    if (age < 32) {
+        // console.log("you are Allow to drink water ")
+    } else if (age < 26) {
+        //   console.log("you are not allowed to drink water")
+    } else {
+        //   console.log("Default");
+    }
+
+    var arr = [1, 2, 3, 4, 5, 6, 7];
+    // console.log(arr.length);
+    for (var i = 0; i < arr.length; i++) {
+        if (i == 2) {
+            break;
+            // continue;
+        }
+        // console.log(arr[i]);
+    }
+
+    // arr.forEach(function(element) {
+    //     console.log(element);
+    // })
+
+    // let j=0;
+    // while(j<arr){
+    //   console.log(arr[j])
+    //   j++;
+    // }
+
+    // var Days = '3'
+    // console.log("START")
+    // switch (Days) {
+    //     case '1':
+    //         console.log("Todays is monday");
+    //         break;
+    //     case '2':
+    //         console.log("Todays is monday");
+    //         break;
+
+    //     case '3':
+    //         console.log("Todays is monday");
+    //         break;
+    //     case '4':
+    //         console.log("Todays is monday");
+    //         break;
+    //     case '5':
+    //         console.log("Todays is monday");
+    //         break;
+    //     case '6':
+    //         console.log("Todays is monday");
+    //         break;
+    //     case '7':
+    //         console.log("Todays is monday");
+    //         break;
+    //     default:
+    //         console.log("Wrong Entery");
+
+
+    // }
+    // array method
+    //    let arr=["hassan",'fan',23,null,true];
+    //    console.log(arr.length);
+    // arr.push("khan");
+    // console.log(arr);
+
+    // string method
+
+    // let mystring = "Hassan is a good coder";
+    // console.log(mystring.length);
+    // // console.log(mystring.indexOf("coder"));
+    // // console.log(mystring.lastIndexOf("coder"));
+    // k = mystring.replace("Hassan", "Husnain");
+    // console.log(k, mystring);
+
+
+    let hk = document.getElementById('click');
+    // console.log(hk);
+
+
+    let hkclass = document.getElementsByClassName("container");
+    // console.log(hkclass);
+    // hkclass[0].style.background="red";
+    // hkclass[0].classList.add("bg-primary");
+    // hkclass[0].classList.add("text-success");
+</script>
+
+</html>
